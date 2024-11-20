@@ -77,11 +77,11 @@ const Actions = ({ product }: ActionsProps) => {
                 </Button>
                 <Tooltip id="product-view"></Tooltip>
             </div>
-            <div data-tooltip-id="product-view" data-tooltip-content="View Product" className="action">
+            <div data-tooltip-id="delete" data-tooltip-content="Delete Product" className="action">
                 <Button onClick={onClickDelete}>
                     <FaRegTrashCan />
                 </Button>
-                <Tooltip id="product-view"></Tooltip>
+                <Tooltip id="delete"></Tooltip>
             </div>
         </div>
     );
