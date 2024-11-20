@@ -1,4 +1,4 @@
-# Wix - Ecommerce - Manager
+# Wix - Ecommerce - API
 
 BE: Nest JS app + PRISMA
 <br/>
