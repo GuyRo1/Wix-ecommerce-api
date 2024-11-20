@@ -9,7 +9,7 @@ const TableHeader = () => {
     return (
         <div className="table-header">
             <div className="header-title">
-                Table Header
+                
             </div>
             <div className="actions">
                 <Button  onClick={refresh}>
