@@ -21,7 +21,7 @@ WIX_SITE_ID=c14axsf22-***-86ae-4648c2aa90f9
 DATABASE_URL="file:./dev.db"
 ```
 credentials needed to interact with wix store, DATABASE_URL configured to on server sqlite
-  2. move to backend dir and 'npm install'
+  2. move to backend dir and `npm install`
   3. `npm start` (to run the server)
 
 * Frontend
