@@ -1,6 +1,7 @@
 # Wix - Ecommerce - Manager
 
 BE: Nest JS app + PRISMA
+<br/>
 FE: Vite React App
 
 BE has 2 additional routes that not used by the FE
