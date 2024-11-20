@@ -1,0 +1,36 @@
+:root {
+  box-sizing: content-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+ }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #eaeaea;
+  overflow: scroll;
+}
+
+// hiding scrolls
+
+html, body {
+  overflow: scroll; /* Prevent scrolling entirely (optional) */
+}
+
+/* Ensure scrolling is still functional */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}

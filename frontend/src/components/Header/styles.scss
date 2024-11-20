@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    height:50px;
+    padding-top:20px;
+    
+    .title{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        .label{
+            font-size: xx-large;
+            font-weight: bold;
+        }
+
+        .number-of-products{
+            font-size: x-large;
+            color: #6c757d;
+        }
+    }
+
+    .actions{
+        button{
+            font-size: x-large;
+            border-radius: 50%;
+            min-height: 48px;
+            min-width: 48px;
+            max-width: 48px;
+            max-height: 48px;
+        }
+    }
+}

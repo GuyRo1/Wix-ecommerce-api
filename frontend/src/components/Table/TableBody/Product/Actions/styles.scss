@@ -1,0 +1,17 @@
+.product-actions{
+    display: flex;
+    gap:30px;
+
+    .action{
+        width: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button{
+        margin:0;
+        padding:0;
+    }
+}
+
